@@ -1,29 +1,13 @@
-import java.util.*;
-class Fruit
+public class Example1
 {
-String name;
-int price;
-public void get()
+int a;
+public Example1(int a)
 {
-name = "Apple";
-price = 150;
+this.a=a;
 }
-public void put()
-{
-System.out.println("NAME=" + name);
-System.out.println("PRICE=" + price);
-}
-}
-class Example1
-{
 public static void main(String args[])
 {
-Fruit obj = new Fruit();
-obj.get();
-obj.put();
-obj.name = "Orange";
-obj.price = 200;
-obj.put();
+Example1  r= new Example1(10);
+System.out.println("value of a="+r.a);
 }
 }
-
